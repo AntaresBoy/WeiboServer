@@ -12,4 +12,5 @@ function twoSum(a,b){
 test("10+20 should be equal 30",()=>{
   const res=twoSum(10,20)
   expect(res).toBe(30)
+  expect(res).not.toBe(40)//不等于
 })
